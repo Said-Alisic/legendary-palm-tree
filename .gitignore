@@ -1,0 +1,8 @@
+# miscelaneous
+
+# secrets
+**.env
+
+# VSC
+**.vscode
+**.code-workspace
