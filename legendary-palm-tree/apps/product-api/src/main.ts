@@ -7,7 +7,6 @@ import { ConfigService } from '@nestjs/config';
 async function bootstrap(): Promise<void> {
   const app = await NestFactory.create(AppModule, {
     cors: true,
-    bodyParser: false,
   });
 
   const config: ConfigService = app.get(ConfigService);
