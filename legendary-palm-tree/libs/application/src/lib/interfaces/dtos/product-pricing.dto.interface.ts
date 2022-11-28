@@ -1,7 +1,7 @@
 import { MarketEnum } from '@libs/domain';
 
 export interface IProductPricing {
-  id: string;
+  id?: string;
   productId: string;
   price: number;
   market: MarketEnum;
@@ -11,10 +11,6 @@ export interface ICreateProductPricing {
   productId: string;
   price: number;
   market: MarketEnum;
-}
-
-export interface IGetProductPricings {
-  ids: string[];
 }
 
 export interface IUpdateProductPricing {

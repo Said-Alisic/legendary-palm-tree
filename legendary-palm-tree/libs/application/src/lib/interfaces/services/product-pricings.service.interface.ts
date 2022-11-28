@@ -1,12 +1,11 @@
 import {
   ICreateProductPricing,
+  IUpdateProductPricing,
   IDeleteProductPricing,
   IProductPricing,
-  IUpdateProductPricing,
 } from '../dtos/product-pricing.dto.interface';
 
-// NOTE: Used when an ORM such as TypeORM is unavailable
-export interface IProductPricingRepository {
+export interface IProductPricingsService {
   createProductPricing(data: ICreateProductPricing): Promise<IProductPricing>;
 
   getProductPricings(): Promise<IProductPricing[]>;
