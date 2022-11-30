@@ -1,5 +1,5 @@
 export enum MarketEnum {
-  EUROPE = 'EU',
+  EURPOE = 'EUROPE',
   ASIA = 'ASIA',
   AMERICAS = 'AMERICAS',
   OCEANIA = 'OCEANIA',
